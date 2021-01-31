@@ -12,7 +12,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-#include "/home/vinitg/.cache/wal/colors-wal-dwm.h"
+#include "/home/vinitg/.cache/wal/colors-wal-dwm.h"    /* use pywal colors */
 /* tagging */
 static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
 
@@ -32,7 +32,7 @@ static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
 
 #define FORCE_VSPLIT 1  /* nrowgrid layout: force two clients to always split vertically */
-#include "vanitygaps.c"
+#include "vanitygaps.c" 
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
