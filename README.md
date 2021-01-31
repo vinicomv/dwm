@@ -13,3 +13,4 @@ I plan to just add those binds to some variables who are easier to modify in cas
 ## Patches
 * vanitygaps (I find the gaps aesthetically pleasant and really good to give your desktop a more organized feeling).
 * restartsig (to restart dwm withou having to kill and startx everytime, useful for testing pywal color schemes and patches).
+* actualfullscreen (just as the name says, an actual fullscreen patch)
