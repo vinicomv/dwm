@@ -2,7 +2,7 @@
 My dwm build. Really novice one, I`m still working on it. Basically just a bunch of patches and keybinds.
 
 ## Requirements
-* All the colors used in this build are obtained from pywal, a tool written in python to get a color pallet and apply it on your system. There is already a patch that takes the xrdb colors and apply it to dwm but I find pywal`s versatility and speed to grab new color schemes really useful and fun. If you`re using an arch based distro just get it from:
+* All the colors used in this build are obtained from pywal, a tool written in python to get a color pallet and apply it on your system. There is already a patch that takes the xrdb colors and apply it to dwm but in my opinion pywal has a versatility and a speed to grab new color schemes really useful. If you`re using an arch based distro just get it from:
 ```
 $ sudo pacman -S python-pywal
 ```
