@@ -11,5 +11,5 @@ $ sudo pacman -S python-pywal
 I plan to just add those binds to some variables who are easier to modify in case of different preferences on broswer, file manager and other programs.
 
 ## Patches
-* vanitygaps
-* restartsig
+* vanitygaps (I find the gaps aesthetically pleasant and really good to give your desktop a more organized feeling).
+* restartsig (to restart dwm withou having to kill and startx everytime, useful for testing pywal color schemes and patches).
