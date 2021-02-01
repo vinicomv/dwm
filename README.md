@@ -8,7 +8,7 @@ $ sudo pacman -S python-pywal
 ```
 * I have a bind for ranger, really powerful and minimalist vim-based file manager (also written in python).
 * Terminal, as probably expected, is st.
-* Browser is Firefox.
+* My default browser is Brave. As redundant as it sounds having two "Chromium based browsers", there is also a bind to Chromium since I have to use it sometimes.
 * I have put binds for steam and discord since I use them quite a lot. I am aware many people do not use or like those applications, so just cut them out or change them if you do not feel like using it.
 
 I plan to just add those binds to some variables who are easier to modify in case of different preferences on broswer, file manager and other programs.
