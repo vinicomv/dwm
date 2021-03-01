@@ -14,7 +14,7 @@ $ sudo pacman -S python-pywal
 * I am using Font Awesome on it as you can notice in the config. It is mainly due the fact that I use some font awesome characters in my dwmblocks statusbar.
 * I organized my tags by functionaly. So DEV for developing, WWW for browsers, BOOK for reading, and so on. You might have noticed I did not insert any rules for specifically spawns in tags. I might insert it any day but I do not think the lack of this feature impacts my workflow.
 
-I plan to just add those binds to some variables who are easier to modify in case of different preferences on broswer, file manager and other programs.
+I plan to just change some binds to variables who are easier to modify in case of different preferences on broswer, file manager and other programs.
 
 
 ## Patches
