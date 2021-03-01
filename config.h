@@ -10,11 +10,11 @@ static const unsigned int gappov    = 30;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
+static const char *fonts[]          = { "monospace:size=10", "fontawesome:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
 #include "/home/vinitg/.cache/wal/colors-wal-dwm.h"
 /* tagging */
-static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
+static const char *tags[] = { "DEV","WWW" , "BOOK", "SYS", "CHAT", "GAME", "VBOX", "WS1", "WS2" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -73,6 +73,9 @@ static const char *bravecmd[] = {"brave", NULL};
 static const char *rangercmd[] = {"st", "-e", "ranger", NULL};
 static const char *discordcmd[]= {"discord", NULL};
 static const char *steamcmd[]= {"steam", NULL};
+static const char *calcursecmd[] = {"st", "-e", "calcurse", NULL};
+static const char *pavucontrolcmd[] = {"pavucontrol", NULL};
+static const char *flameshotcmd[] = {"flameshot gui", NULL};
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -82,6 +85,9 @@ static Key keys[] = {
 	{ MODKEY,                       XK_r,      spawn,          {.v = rangercmd} },
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = discordcmd} },
 	{ MODKEY,                       XK_s,      spawn,          {.v = steamcmd} },
+	{ MODKEY|ShiftMask,             XK_c,      spawn,          {.v = calcursecmd} },
+	{ MODKEY,                       XK_Print,  spawn,          {.v = flameshotcmd} },
+	{ MODKEY|ShiftMask,             XK_p,      spawn,          {.v = pavucontrolcmd} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
