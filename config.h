@@ -10,11 +10,11 @@ static const unsigned int gappov    = 30;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "fontawesome:size=12" };
+static const char *fonts[]          = { "monospace:size=10", "fontawesome:size=14" };
 static const char dmenufont[]       = "monospace:size=10";
 #include "/home/vinitg/.cache/wal/colors-wal-dwm.h"
 /* tagging */
-static const char *tags[] = { "dev","www" , "book", "sys", "chat", "game", "vbox", "org", "media" };
+static const char *tags[] = { "dev1","dev2" , "www", "sys", "chat", "book", "btc", "org", "media" };
 
 static const Rule rules[] = {
 	/* xprop(1):
