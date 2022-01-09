@@ -10,11 +10,13 @@ static const unsigned int gappov    = 30;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int vertpad            = 10;       /* vertical pad bar */
+static const int sidepad            = 10;       /* horizontal pad bar */
 static const char *fonts[]          = { "monospace:size=10", "fontawesome:size=14" };
 static const char dmenufont[]       = "monospace:size=10";
 #include "/home/vinitg/.cache/wal/colors-wal-dwm.h"
 /* tagging */
-static const char *tags[] = { "dev1","dev2" , "www", "sys", "chat", "book", "btc", "org", "media" };
+static const char *tags[] = { "dev1","dev2" , "www", "sys", "chat", "book", "btc", "org", "tv" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -72,26 +74,10 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", norm_bg, "-nf", norm_fg, "-sb", sel_bg, "-sf", sel_fg, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *chromiumcmd[] = { "chromium", NULL};
-static const char *bravecmd[] = {"brave", NULL};
-static const char *rangercmd[] = {"st", "-e", "ranger", NULL};
-static const char *discordcmd[]= {"discord", NULL};
-static const char *steamcmd[]= {"steam", NULL};
-static const char *calcursecmd[] = {"st", "-e", "calcurse", NULL};
-static const char *pavucontrolcmd[] = {"pavucontrol", NULL};
-static const char *flameshotcmd[] = {"flameshot gui", NULL};
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-        { MODKEY,                       XK_w,      spawn,          {.v = bravecmd } },
-	{ MODKEY|ShiftMask,             XK_w,      spawn,          {.v = chromiumcmd } },
-	{ MODKEY,                       XK_r,      spawn,          {.v = rangercmd} },
-	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = discordcmd} },
-	{ MODKEY,                       XK_s,      spawn,          {.v = steamcmd} },
-	{ MODKEY|ShiftMask,             XK_c,      spawn,          {.v = calcursecmd} },
-	{ MODKEY,                       XK_Print,  spawn,          {.v = flameshotcmd} },
-	{ MODKEY|ShiftMask,             XK_p,      spawn,          {.v = pavucontrolcmd} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
