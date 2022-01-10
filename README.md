@@ -8,6 +8,7 @@ $ sudo pacman -S python-pywal
 ```
 * Terminal, as probably expected, is st.
 * I mainly use SXHKD for my key binds, mantaining dwm only with essential binds, such as terminal and dmenu.
+* All tags are organized per function, and I keep tag masks for specific programs.
 
 note to myself: edit the paths in config.h so it works univerally.
 
