@@ -14,7 +14,7 @@ note to myself: edit the paths in config.h so it works univerally.
 
 ## Patches
 * vanitygaps (I find the gaps aesthetically pleasant. It makes my desktop look cleaner and organized).
-* restartsig (to restart dwm withou having to kill and startx everytime, useful for testing pywal color schemes and patches).
+* restartsig (to restart dwm without having to kill and startx everytime, useful for testing pywal color schemes and patches).
 * actualfullscreen (just as the name says, an actual fullscreen patch).
 * pertag (so I can have specific layouts for specific tags)
 * statusbar padding
