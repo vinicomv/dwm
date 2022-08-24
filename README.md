@@ -18,3 +18,4 @@ note to myself: edit the paths in config.h so it works univerally.
 * actualfullscreen (just as the name says, an actual fullscreen patch).
 * pertag (so I can have specific layouts for specific tags)
 * statusbar padding
+* preserveonrestart (preservers window layout after restarting)
