@@ -1,5 +1,5 @@
 # dwm
-My dwm build. Really novice one, I`m still working on it. Basically just a bunch of patches and keybinds.
+My dwm build. Basically just a bunch of patches and keybinds.
 
 ## Requirements
 * All the colors used in this build are obtained from pywal, a tool written in python to get a color pallet and apply it on your system. There is already a patch that takes the xrdb colors and apply it to dwm but in my opinion pywal has a lot of versatility and speed to grab new color schemes. If you are using an arch based distro just get it from:
